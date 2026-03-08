@@ -2,7 +2,7 @@ name: Deploy Storybook to GitHub Pages
 
 on:
   push:
-    branches: ["main"] # Trigger the deployment when pushing to the main branch
+    branches: ["master"] # Trigger the deployment when pushing to the main branch
 
 permissions:
   contents: read
